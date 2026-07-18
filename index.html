@@ -204,7 +204,7 @@
                         <p>Whether you have a project in mind or just want to chat about design and code, feel free to reach out.</p>
                         
                         <div class="info-links">
-                            <a href="mailto:contact@samridhi.dev" class="info-row">
+                            <a href="mailto:contact.samridhisharma@gmai.com" class="info-row">
                                 <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
                                 <div>
                                     <span>Email</span>
@@ -222,22 +222,24 @@
                     </div>
                     
                     <div class="contact-form-container">
-                        <form id="contact-form">
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" required placeholder="Dai">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" required placeholder="Dai@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" rows="4" required placeholder="Hello Samridhi..."></textarea>
-                            </div>
-                            <button type="submit" class="btn primary-btn w-100">Send Message</button>
-                            <div id="form-success" class="success-msg hidden">Message sent successfully!</div>
-                        </form>
+                      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <!-- Paste your Web3Forms Access Key on the line below -->
+    <input type="hidden" name="access_key" value="faea3489-a76a-4238-9ce7-538254803a35">
+
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" required placeholder="Dai">
+    </div>
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" required placeholder="Dai@example.com">
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="4" required placeholder="Hello Samridhi..."></textarea>
+    </div>
+    <button type="submit" class="btn primary-btn w-100">Send Message</button>
+</form>
                     </div>
                 </div>
             </div>
