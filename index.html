@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samridhi Sharma | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <!-- Navigation -->
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">Hey Recruiters<span>.</span></div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle-wrapper">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container">
+            <div class="hero-content reveal">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Samridhi Sharma</h1>
+                <div class="typewriter-container">
+                    <span id="typewriterText"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">An innovative Creative Developer engineering next-generation digital experiences. I fuse robust architectures with hyper-modern, immersive user interfaces to push the boundaries of the web.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image reveal delay-1">
+                <div class="image-wrapper">
+                    <!-- ADD YOUR IMAGE SRC BELOW -->
+                    <img src="" alt="Samridhi Sharma">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-pad">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>About Me</h2>
+                    <p>Crafting digital elegance</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <h3>A blend of logic and design</h3>
+                        <p>I engineer scalable, high-performance web applications that bridge the gap between complex logic and breathtaking aesthetics.</p>
+                        <p>I am obsessed with the details—from architecting efficient, reusable components to choreographing micro-animations that make digital spaces feel alive and responsive on every device.</p>
+                        
+                        <div class="contact-badges">
+                            <a href="mailto:contact@samridhi.dev" class="badge-link"><i class="fa-solid fa-envelope"></i> contact@samridhi.dev</a>
+                            <!--<a href="tel:+919876543210" class="badge-link"><i class="fa-solid fa-phone"></i> +91 9876543210</a>-->
+                            <span class="badge-static"><i class="fa-solid fa-location-dot"></i> Kangra, HP, India</span>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-wrapper reveal delay-1">
+                        <h3>Core Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS3 / Grid</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-brands fa-node"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-pad bg-soft">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Featured Work</h2>
+                    <p>Selected projects and case studies</p>
+                </div>
+                
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="card-img">
+                            <img src="Assets/p-1.png" alt="Social Circle App" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80'">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Full Stack</span>
+                            <h3>Social Circle App</h3>
+                            <p>A cutting-edge, private community hub designed for seamless interaction. It boasts real-time multi-channel communication, interactive media sharing, and an engaging virtual pet system driven by user activity.</p>
+                            <div class="card-action">
+                                <a href="https://team-rocket-hub.web.app" target="_blank" class="link-btn">View Live <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal delay-1">
+                        <div class="card-img">
+                            <img src="Assets/p-2.png" alt="Sunrise Restaurant" onerror="this.src='https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=600&q=80'">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Frontend</span>
+                            <h3>The Sunrise Restaurant</h3>
+                            <p>A sleek, intuitive restaurant management and ordering interface. Features fluid navigation, dynamic menu rendering, and an frictionless checkout experience.</p>
+                            <div class="card-action">
+                                <a href="https://github.com/DevlprArchit/The-Sunrise-Restaurant-Project-" target="_blank" class="link-btn">View Code <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card reveal">
+                        <div class="card-img">
+                            <img src="Assets/p-3.png" alt="S8UL Website" onerror="this.src='https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80'">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">Web Design</span>
+                            <h3>S8UL Gaming Platform</h3>
+                            <p>An immersive digital tribute to S8UL Esports. It leverages modern layout techniques to showcase dynamic player rosters, tournament logs, and high-energy media galleries.</p>
+                            <div class="card-action">
+                                <a href="https://github.com/DevlprArchit/S8UL-Gaming-Website-Project-" target="_blank" class="link-btn">View Code <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card reveal delay-1">
+                        <div class="card-img">
+                            <img src="Assets/p-4.png" alt="Premium Portfolio" onerror="this.src='https://images.unsplash.com/photo-1481482205463-5470123565f4?auto=format&fit=crop&w=600&q=80'">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">UI/UX Engineering</span>
+                            <h3>Elegant Portfolio</h3>
+                            <p>This very platform. A showcase engineered with a Node.js backend and a state-of-the-art frontend featuring a soft-glass aesthetic, modern typography, and perfect responsiveness.</p>
+                            <div class="card-action">
+                                <a href="#" class="link-btn">Current Site <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-pad">
+            <div class="container">
+                <div class="contact-wrapper glass-panel reveal">
+                    <div class="contact-info">
+                        <h2>Let's build something beautiful.</h2>
+                        <p>Whether you have a project in mind or just want to chat about design and code, feel free to reach out.</p>
+                        
+                        <div class="info-links">
+                            <a href="mailto:contact@samridhi.dev" class="info-row">
+                                <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span>Email</span>
+                                    <strong>contact@samridhi.dev</strong>
+                                </div>
+                            </a>
+                           <!-- <a href="tel:+919876543210" class="info-row">
+                                <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span>Phone</span>
+                                    <strong>+91 12345</strong>
+                                </div>
+                            </a>-->
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required placeholder="Dai">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" required placeholder="Dai@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="Hello Samridhi..."></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn w-100">Send Message</button>
+                            <div id="form-success" class="success-msg hidden">Message sent successfully!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="logo">Feel free to contact .<span>.</span></div>
+            <p>&copy; <span id="year"></span> Samridhi Sharma. All rights reserved. Built with 💜 </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
